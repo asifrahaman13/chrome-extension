@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.content{
+    padding: 10px;
+    min-width: 300px;
+}
+
+.button_cont button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: teal;
+    color: white;
+    width: 100%;
+
+}
+
+.button_cont button:hover{
+    box-shadow: 1px 0px 10p #eee;
+}
+
+      /* ./css/styles.css */
+
+      .button_cont button {
+        background-color: #3498db;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .button_cont button:hover {
+        background-color: #2c3e50;
+    }
